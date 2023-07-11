@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /* header */
@@ -25,4 +26,38 @@ header .logo {
   padding-top: 20px;
   padding-bottom: 20px;
   vertical-align: middle;
+}
+
+/* main */
+
+.container-head {
+  margin: 50px 20% 0;
+  background-color: white;
+  padding: 10px 60px;
+  border-bottom: 2px solid gainsboro;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.task {
+  color: white;
+  background-color: #47ADF1;
+  border: #47ADF1;
+}
+
+.section {
+  color: gainsboro;
+  border: 1px solid gainsboro;
+  background-color: white;
+}
+
+.section,.task {
+  border-radius: 4px;
+  padding: 5px 8px;
+}
+
+.container-main {
+  margin: 0 20%;
+  background-color: white;
+  padding: 20px 60px;
 }
