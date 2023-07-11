@@ -62,6 +62,8 @@ header .logo {
   margin: 0 20%;
   background-color: white;
   padding: 20px 60px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .list {
@@ -93,7 +95,7 @@ header .logo {
   margin: 5px;
 }
 
-.editorial,.q1,.recruiting,.mobile {
+.editorial,.q1,.recruiting,.mobile,.website,.sales {
   font-size: 0.7rem;
   border-radius: 10px;
   padding: 7px;
@@ -106,16 +108,26 @@ header .logo {
 }
 
 .q1{
-  border: 1px solid #9C27E4; 
+  border: 1px solid #9C72E4; 
   background-color: #9C27E4; 
 }
 
 .recruiting{
-  border: 1px solid #9C27E4; 
-  background-color: #9C27E4;
+  border: 1px solid #63BFA8; 
+  background-color: #63BFA8;
 }
 
 .mobile{
-  border: 1px solid #9C27E4; 
-  background-color: #9C27E4;
+  border: 1px solid #F29E33; 
+  background-color: #F29E33;
+}
+
+.website{
+  border: 1px solid #D863A1; 
+  background-color: #D863A1;
+}
+
+.sales{
+  border: 1px solid #B0C926; 
+  background-color: #B0C926;
 }
