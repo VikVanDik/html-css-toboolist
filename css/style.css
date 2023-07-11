@@ -65,10 +65,57 @@ header .logo {
 }
 
 .list {
-  padding-left: 15px;
+  padding-left: 23px;
   font-size: 1.8rem;
   list-style: none;
   list-style-type: '\25BC';
 }
 
+.small-item {
+  list-style: none;
+  font-size: 1rem;
+  margin: 15px 0px 15px -25px
+}
 
+.positive {
+  border: 1px solid green;
+  color: green;
+}
+
+.negative {
+  border: 1px solid red;
+  color: red;
+}
+
+.positive,.negative {
+  border-radius: 50%;
+  padding: 2px;
+  margin: 5px;
+}
+
+.editorial,.q1,.recruiting,.mobile {
+  font-size: 0.7rem;
+  border-radius: 10px;
+  padding: 7px;
+  color: white;  
+}
+
+.editorial {
+  border: 1px solid #45ABEA;
+  background-color: #45ABEA;  
+}
+
+.q1{
+  border: 1px solid #9C27E4; 
+  background-color: #9C27E4; 
+}
+
+.recruiting{
+  border: 1px solid #9C27E4; 
+  background-color: #9C27E4;
+}
+
+.mobile{
+  border: 1px solid #9C27E4; 
+  background-color: #9C27E4;
+}
