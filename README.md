@@ -1,71 +1,19 @@
-Title
+Toboolist
 ===
-Abstract:xxx
-## Papar Information
-- Title:  `paper name`
-- Authors:  `A`,`B`,`C`
-- Preprint: [https://arxiv.org/abs/xx]()
-- Full-preprint: [paper position]()
-- Video: [video position]()
+esercizio di oggi **Toboolist**
 
-## Install & Dependence
-- python
-- pytorch
-- numpy
+repo html-css-toboolist
 
-## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
-| dataset-B | [download]() |
-| dataset-C | [download]() |
+**Esercizio**
 
-## Use
-- for train
-  ```
-  python train.py
-  ```
-- for test
-  ```
-  python test.py
-  ```
-## Pretrained model
-| Model | Download |
-| ---     | ---   |
-| Model-1 | [download]() |
-| Model-2 | [download]() |
-| Model-3 | [download]() |
+Ricreiamo una TodoList seguendo il layout in allegato.
 
+**Consigli**
 
-## Directory Hierarchy
-```
-|—— index.html
-```
-## Code Details
-### Tested Platform
-- software
-  ```
-  OS: Debian unstable (May 2021), Ubuntu LTS
-  Python: 3.8.5 (anaconda)
-  PyTorch: 1.7.1, 1.8.1
-  ```
-- hardware
-  ```
-  CPU: Intel Xeon 6226R
-  GPU: Nvidia RTX3090 (24GB)
-  ```
-### Hyper parameters
-```
-```
-## References
-- [paper-1]()
-- [paper-2]()
-- [code-1](https://github.com)
-- [code-2](https://github.com)
-  
-## License
+Partiamo sempre dal definire le macroaree del layout e analizziamo poi gli elementi in comune nelle diverse aree e quindi tutto ciò che possiamo centralizzare, per rendere il codice meno ripetitivo e quindi più mantenibile.
 
-## Citing
-If you use xxx,please use the following BibTeX entry.
-```
-```
+**Consegna**
+
+Pushate in Github utilizzando VS code e stando attenti, quando create la repo, di rispettare il nome della repo, in questo caso html-css-toboolist.
+
+Buon lavoro!
