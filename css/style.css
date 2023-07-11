@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: gainsboro;
+}
+
+header {
+  background-color: white;
+}
+
+header .title {
+  font-size: 2rem;
+  vertical-align: middle;
+  font-weight: 800;
+}
+
+header .logo {
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  vertical-align: middle;
+}
