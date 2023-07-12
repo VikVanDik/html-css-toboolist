@@ -31,7 +31,7 @@ header .logo {
 /* main-head */
 
 .container-head {
-  margin: 50px 20% 0;
+  margin: 50px 15% 0;
   background-color: white;
   padding: 10px 60px;
   border-bottom: 2px solid gainsboro;
@@ -54,23 +54,27 @@ header .logo {
 .section,.task {
   border-radius: 4px;
   padding: 5px 8px;
+  cursor: pointer;
 }
 
 /* main-body */
 
 .container-main {
-  margin: 0 20%;
+  margin: 0 15%;
   background-color: white;
-  padding: 20px 60px;
+  padding: 50px 60px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
 .list {
   padding-left: 23px;
-  font-size: 1.8rem;
-  list-style: none;
+  font-size: 1.4rem;
   list-style-type: '\25BC';
+}
+
+.big-item{
+  font-weight: 800;
 }
 
 .small-item {
